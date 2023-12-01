@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chiffrement de césar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h2>Chiffrement de César</h2>
+    <textarea id="inputText"></textarea>
+
+    <br>
+
+    <input type="number" id="shift" value="1" min="1" max="25">
+
+    <div id="buttons">
+        <button class="btn" onclick="encrypt()">Chiffrer</button>
+        <button class="btn" onclick="decrypt()">Déchiffrer</button>
+    </div>
+
+    <h3>Résultat :</h3>
+    <div id="result"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
